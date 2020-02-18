@@ -499,7 +499,7 @@ button:focus {
 /*--------------------*/
 
 #mu-counter {
-	background-image: url("assets/images/counter-bg.jpeg");
+	background-image: url("assets/images/mainWebsite/Cover.png");
 	background-position: center center;
 	background-size: cover;
 	background-attachment: fixed;
@@ -714,11 +714,44 @@ button:focus {
 	position: absolute;
 	left: 16px;
 	top: 16px;
+	padding-top: 20%;
 	right: 16px;
 	bottom: 16px;
 	color: #fff;
-	padding-top: 30%;
 	text-align: center;
+	-webkit-transform: scale(0);
+	        transform: scale(0);
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+	opacity: 0.9;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+}
+
+.mu-filter-item-description {
+	position: relative;
+	color: #BDBDBD;
+	-webkit-transform: scale(0);
+	        transform: scale(0);
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+	opacity: 0.9;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+.mu-filter-item-feature {
+	position: relative;
+	color: #EEEEEE;
+	-webkit-transform: scale(0);
+	        transform: scale(0);
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+	opacity: 0.9;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+}
+
+.mu-filter-item-subTitle {
+	position: relative;
+	color: #fff;
 	-webkit-transform: scale(0);
 	        transform: scale(0);
 	-webkit-transition: all 0.5s;
@@ -730,6 +763,21 @@ button:focus {
 .filtr-item:hover .mu-filter-item-content{
 	-webkit-transform: scale(1);
 	        transform: scale(1);
+}
+
+.filtr-item:hover .mu-filter-item-description{
+	-webkit-transform: scale(0.7);
+	        transform: scale(0.7);
+}
+
+.filtr-item:hover .mu-filter-item-feature{
+	-webkit-transform: scale(0.7);
+	        transform: scale(0.7);
+}
+
+.filtr-item:hover .mu-filter-item-subTitle{
+	-webkit-transform: scale(0.8);
+	        transform: scale(0.8);
 }
 
 
@@ -892,7 +940,7 @@ button:focus {
 /*--------------------*/
 
 #mu-testimonials {
-	background-image: url("assets/images/testimonials-bg.jpeg");
+	background-image: url("assets/images/mainWebsite/awardsCover.jpg");
 	background-position: center center;
 	background-size: cover;
 	background-attachment: fixed;
@@ -1460,7 +1508,21 @@ button:focus {
 	}
 
 	.mu-filter-item-content {
-		padding-top: 25%;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	
+	.mu-filter-item-description {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+
+	.mu-filter-item-feature {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+
+	.mu-filter-item-subTitle {
 		padding-left: 5px;
 		padding-right: 5px;
 	}
