@@ -383,6 +383,8 @@ button:focus {
 
 .mu-featured-slider-content .mu-primary-btn{
 	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
 .slick-dotted.slick-slider{
